@@ -235,3 +235,13 @@ header {
 .collection__link:hover{
   background-color: var(--primary-900);
 }
+/* nueva section. slider*/
+.slider{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-36);
+}
+.slider__items{
+  display: flex;
+}
+ /*  video 1.20*/
