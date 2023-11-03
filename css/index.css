@@ -260,7 +260,7 @@ header {
     display: flex;
     gap: var(--spacing-24);
    }
-   /* OVERRIDE */
+   
 
 .glide__arrow {
   width: 35px;
@@ -271,7 +271,7 @@ header {
 }
 
 .glide__arrow:hover {
-  background-color: var(--fondo-claro);
+  background-color: var(--ligth-bg-solid)
 }
 
 .glide__arrow--left {
@@ -357,7 +357,7 @@ header {
       100%{ opacity: 1; } 
    }
 
-   /* SHOP PAGE */
+   /* SHOP PAGiNA */
 
 #shop {
   display: flex;
@@ -556,7 +556,7 @@ header {
   cursor: pointer;
 }
 
-/* COLORS */
+/* COLORES DE LOS BOTONES*/
 
 .btn--primary {
   background-color: var(--secondary-solid);
@@ -568,7 +568,7 @@ header {
   background-color: var(--primary-solid);
 }
 
-/* SIZES */
+/*TAMAÑOS DE LOS BOTONS */
 
 .btn--medium {
   padding: var(--spacing-8) var(--spacing-16);
@@ -623,7 +623,7 @@ header {
 }
 
 .encabezado-tabla-detalle div {
- flex-grow: 1; /* Hace que los elementos ocupen el mismo espacio disponible */
+ flex-grow: 1; 
  text-align: center;
  background-color: var(--light-bg-container);
  padding: 16px; 
@@ -634,7 +634,7 @@ header {
  padding: var(--spacing-68);
 }
 
-/* Estilos para el encabezado de la tabla de detalle */
+/* Estilos para el encabezado  */
 .encabezado-tabla-detalle {
  margin-top: var(--spacing-68);
  font-size: var(--font-small);
@@ -774,3 +774,5 @@ border-bottom: 2px solid var(--primary-solid);
 .item-resumen_carrito {
 font-weight: bold;
 }
+
+/*FIN DEL LAS PAGES

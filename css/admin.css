@@ -95,4 +95,110 @@
     gap: var(--spacing-24);
 }
 
-/* edit/
+/* login*/
+#login {
+    margin: var(--spacing-68) auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+}
+
+.login__title {
+    text-align: center;
+    font-size: var(--font-jumbo);
+}
+
+.login__form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+}
+
+#login .form__link {
+    font-size: var(--font-small);
+    text-align: center;
+}
+
+/* editar producto*/
+#edit {
+    margin: var(--spacing-68) auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+    padding: var(--spacing-36);
+}
+
+.edit__title {
+    font-size: var(--font-jumbo);
+}
+
+.edit__form {
+    max-width: 990px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+}
+
+.edit__img {
+    max-width: 150px;
+    padding-bottom: var(--spacing-8);
+}
+
+.edit__img-side {
+    font-size: var(--font-small);
+    text-align: center;
+    padding-top: var(--spacing-8);
+    border-top: 2px solid var(--primary-solid);
+    font-weight: 600;
+}
+
+/**registro */
+
+.register {
+    margin: var(--spacing-68) auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: var(--spacing-36);
+}
+
+.register__header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-16);
+    align-items: center;
+    justify-content: center;
+}
+
+.register__title {
+    font-size: var(--font-jumbo);
+}
+
+.register__subtitle {
+    font-size: var(--font-large);
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-36);
+    margin: var(--spacing-16);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.register .form__terms {
+    font-size: var(--font-small);
+}
